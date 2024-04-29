@@ -1,3 +1,3 @@
 [build]
-command = "pip install -r requirements.txt && flask run --host 0.0.0.0 --port $PORT"
+command = "pip install -r requirements.txt && python app.py"
 publish = "."

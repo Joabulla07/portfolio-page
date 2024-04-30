@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Joanna Bulla prtfolio</title>
+    <link rel="stylesheet" href="/static/css/style_exam.css">
+    <link rel="icon" href="/static/images/desarrollador-de-software.png" type="image/x-icon">
+</head>
+<body>
+    <div>
+        <br>
+        <br>
+        <h1>📄 Exam date generator App</h1>
+    <section>
+        <h2>Introduction Summary</h2>
+        <p>A university in Resistencia-Chaco requires a system to create examination schedules
+            for its students. The university has provided the following requirements that must be fulfilled:</p>
+    </section>
+    <section>
+        <h2>Requirements: </h2>
+        <p>
+            <img loading="lazy" src="https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/caa27a19-fc09-4452-b2b4-a301552fd69c/32x32/1f4c5.png" alt=":date:" width="20" height="20" style="visibility: visible;">
+            <strong>   Examination Periods </strong></p>
+        <ul>
+            <li>
+                <p>There are two examination periods: </p>
+                <ul>
+                    <li><p>First Call and Second Call.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>Examinations are not scheduled on holidays and weekends.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <p>
+            <img loading="lazy" src="https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/note_32.png" alt=":note:" width="20" height="20" style="visibility: visible;">
+            <strong>  Data Entry</strong></p>
+
+        <p>The system should include a data entry feature to input the following information:</p>
+        <ul>
+            <li>
+                <p>Start and end dates for the First Call.</p>
+            </li>
+            <li>
+                <p>Start and end dates for the Second Call.</p>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <p>
+
+            <img loading="lazy" src="https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/caa27a19-fc09-4452-b2b4-a301552fd69c/32x32/1f550.png" alt=":clock1:" width="20" height="20" style="visibility: visible;">
+            <strong>Examination Time Slots </strong>
+        </p>
+        <ul>
+            <li>
+                <p>Examinations are divided into two shifts:</p>
+                <ul>
+                    <li>
+                        <p>Morning Shift: 8:00 AM to 11:00 AM.</p>
+                    </li>
+                    <li>
+                        <p>Afternoon Shift: 1:00 PM to 5:00 PM.</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <p><img loading="lazy" src="https://api.media.atlassian.com/file/4dde78d6-13c1-436f-92b8-6c407a36b965/image?collection=emoji-site-2361cda0-58c3-4739-8085-8ece411069fb&amp;width=32&amp;height=32&amp;max-age=31536000&amp;token=eyJraWQiOiJtaWNyb3MvcGYtZW1vamktc2VydmljZS9yNjRybTZwdXI1OHF0N3MyIiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJtaWNyb3MvcGYtZW1vamktc2VydmljZSIsImF1ZCI6Im1lZGlhIiwiYWNjZXNzIjp7InVybjpmaWxlc3RvcmU6Y29sbGVjdGlvbjplbW9qaS1zaXRlLTIzNjFjZGEwLTU4YzMtNDczOS04MDg1LThlY2U0MTEwNjlmYiI6WyJyZWFkIl19LCJjbGllbnRJZCI6IjhlNDgxNGJlLTlkOTEtNDBmMi05OWJhLTAyYzIxNDBhZGIzOSIsIm5iZiI6MTcxNDQzMjYxNSwiaXNzIjoibWljcm9zL3BmLWVtb2ppLXNlcnZpY2UiLCJleHAiOjE3MTQ0MzYxNTUsImlhdCI6MTcxNDQzMjYxNSwianRpIjoiYWZlOWFmNjMtN2QyZi00OGU1LTgwZTMtMjg4N2E5YmZmNDU1In0.JViyMhdJMFJlgLHrArzRwKptw0hBtdTidFpLLAU_ur2GI_BaIQHtMV5_dRN9CY5ghwZbopMuQ6whSCqzHTTXCDuSId4X5njnsz74c9r3lqD5MLHAMY6erodFeDEe70l411SHCKOIVki1AJE_50W9SxkKs6ln95RPd2Lp-uhWwfB7wX0I3w9nFWVEQvLENiiklk1B_2IjtVk4zt8iWybJj1b35Uc0OMzWcC8mZIgiB-umt6vXUPU6l6A61jIhlsxVEGehzSD6UyXGUB811uDxjlyk3Mgmyk6E-QYkK_sk92kAOS7FNoATZN926qS_bsT1WqmBjsMtfvzxcAc8N4jyJw&amp;client=8e4814be-9d91-40f2-99ba-02c2140adb39" alt=":checklist:"  width="20" height="20" style="visibility: visible;">
+            <strong>Examination Scheduling Constraints</strong></p>
+        <ul>
+            <li>
+                <p>A day cannot have two exams of the same year.</p>
+            </li>
+            <li>
+                <p>The academic program consists of 5 years.</p>
+            </li>
+            <li>
+                <p>Separate documents should be generated for each year.</p>
+            </li>
+            <li>
+                <p>First and second-year exams only take place in the morning.</p>
+            </li>
+            <li>
+                <p>Exams for the remaining years take place in the afternoon, except for two courses in the third year:</p>
+                <ul>
+                    <li>
+                        <p>Técnicas Kinesicas 3</p>
+                    </li>
+                    <li>
+                        <p>Tecnicas Kinesicas 4</p>
+                    </li>
+                </ul>
+            </li>
+            <li><p>Between a subject that has correlatives, it has to be at least 5 days. Example:  Tecnica 1 10/12, Tecnica 2 15/12.</p>
+            </li>
+        </ul>
+
+    </section>
+    <section>
+        <p><img loading="lazy" src="https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/caa27a19-fc09-4452-b2b4-a301552fd69c/32x32/1f4dd.png" alt=":pencil:" width="20" height="20" style="visibility: visible;">
+            <strong>File Format</strong></p>
+        <ul>
+            <li>
+                <p>The generated files should be in Excel or CSV format.</p>
+            </li>
+        </ul>
+        <br>
+    </section>
+        <section>
+            <p><strong>Download Software: </strong></p>
+                  <button class="btn-printer" onclick="window.location.href='https://drive.google.com/file/d/1LkW8R2eEsHenCghmsTBE2mCPZK4F9-PZ/view?usp=sharing'"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 512 512" style="fill: white;"><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg> Download</button>
+            <br>
+            <br>
+            <p>This software was developed with PySide6 for windows</p>
+            <p>If you need an Excel to run this program, here you can have one: <a href="/project/exam_generator/file">download here</a></p>
+            Github: <a href="https://github.com/Joabulla07/Exam-Generator-App">Github Code here</a>
+            <br>
+            <br>
+        </section>
+    </div>
+</body>
+</html>
+

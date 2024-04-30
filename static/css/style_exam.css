@@ -1,0 +1,33 @@
+body{
+    background-color: #be3144;
+}
+
+div{
+    margin-left: 200px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+    margin-right: 200px;
+    border-radius: 10px;
+    text-justify: auto;
+}
+
+section{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+h1{
+    text-align: center;
+}
+
+.btn-printer{
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  cursor: pointer;
+  border-radius: 100px;
+  display: inline-flex;
+  background-color: #45567d;
+  box-shadow: 0 0 0 0.2rem rgba(248, 92, 112, 0.25);
+}
